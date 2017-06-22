@@ -1,8 +1,8 @@
 Package.describe({
-    name:"steffo:meteor-accounts-saml",
+    name:"payner35:mteor-accounts-saml",
     summary: "SAML Login (SP) for Meteor. Works with OpenAM, OpenIDP and provides Single Logout.",
     version: "0.0.12",
-    git: "https://github.com/steffow/meteor-accounts-saml.git"
+    git: "https://github.com/payner35/mteor-accounts-saml"
 });
 
 Package.on_use(function (api) {
@@ -23,7 +23,7 @@ Package.onTest((api) => {
 
 Npm.depends({
     "depd": "1.1.0",
-        "xml-crypto": "0.9.0",
+    "xml-crypto": "0.9.0",
     "bytes": "2.5.0",
     "content-type": "1.0.2",
     "debug": "2.6.3",
